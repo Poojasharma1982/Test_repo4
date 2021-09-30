@@ -1,0 +1,6 @@
+module "vnet-module" {
+  source  = "app.terraform.io/Pooja1892/vnet-module/azurerm"
+  version = "1.1.0"
+  virtualnetworkname = var.prov-virtualnetworkname
+  # insert required variables here
+}
